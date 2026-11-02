@@ -479,6 +479,47 @@ footer p {
     section {
         padding: 80px 20px;
     }
+   
+/* PROJECT ACTION BUTTONS */
+
+.project-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.project-actions a {
+    display: inline-block;
+    padding: 9px 13px;
+    border: 1px solid #8b5cf6;
+    border-radius: 7px;
+    background: #24203b;
+    color: #c4b5fd;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.project-actions a:hover {
+    background: #8b5cf6;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+.project-actions .hosting-pending {
+    display: inline-block;
+    padding: 9px 11px;
+    border-radius: 7px;
+    background: #252538;
+    color: #aaaabc;
+    border: 1px solid #363653;
+    font-size: 12px;
+}
+
+
 
     .section-title h2 {
         font-size: 32px;
